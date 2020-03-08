@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>fr.gaellalire.vestige_app.demo1</groupId>
+    <artifactId>demo1-1.1.0</artifactId>
+    <version>1</version>
+  </parent>
+  <artifactId>demo1-1.1.0.launcher</artifactId>
+  <packaging>jar</packaging>
+  <dependencies>
+<!--     <dependency> -->
+<!--       <groupId>fr.gaellalire.vestige</groupId> -->
+<!--       <artifactId>vestige.core</artifactId> -->
+<!--       <version>1</version> -->
+<!--       <scope>provided</scope> -->
+<!--     </dependency> -->
+  </dependencies>
+  <repositories>
+    <!-- <repository> -->
+    <!-- <id>ettrema-repo</id> -->
+    <!-- <url>http://milton.io/maven</url> -->
+    <!-- </repository> -->
+    <repository>
+      <id>gaellalire_nexus</id>
+      <url>http://gaellalire.fr/nexus/content/repositories/releases</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+</project>

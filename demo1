@@ -1,0 +1,14 @@
+
+for version in 0.0.0 0.1.0 1.0.0 1.1.0 2.0.0; do
+  echo '*****************************************************************'
+  pushd demo1-$version
+  eval "$@"
+  if [ $? != 0 ]; then
+    popd > /dev/null
+    exit 1
+  fi
+  popd > /dev/null
+done
+
+
+
