@@ -4,7 +4,7 @@
 
 # Run with 
 
-`docker run -p 7777:7777 -d gaellalire:demo2`
+`docker run -p 7777:7777 -d gaellalire:demo1-2.0.0`
 
 # Test with 
 

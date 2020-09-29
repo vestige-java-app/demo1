@@ -1,1 +1,1 @@
-docker build -t gaellalire:demo2 .
+docker build -t gaellalire:demo1-2.0.0 .

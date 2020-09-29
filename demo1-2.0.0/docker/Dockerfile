@@ -1,4 +1,4 @@
-FROM gaellalire/vestige:8.0.4-SNAPSHOT-alpine-openjdk8
+FROM gaellalire/vestige:8.1.0-alpine-openjdk8
 RUN export VESTIGE_INSTALL_URL=https://gaellalire.fr/vestige/repository/demo1/demo1-2.0.0.xml \
  && export VESTIGE_STOP_AFTER_START=true \
  && export VESTIGE_INSTALL_M2_REPO=/tmp/m2Repository \
